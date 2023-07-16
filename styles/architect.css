@@ -100,6 +100,32 @@ main{
     color: #FF900E;
     font-weight: 700;
 }
+.facts-cards{
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.8rem;
+
+}
+.facts-cards .card-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 5px;
+  
+
+}
+.facts-cards .card{
+  border-radius: 8px;
+  border: 1px solid #FF900E;
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 30px;
+}
+.facts-cards .card-stat{
+  font-size:2.8rem;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
 
