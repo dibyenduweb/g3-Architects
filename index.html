@@ -118,8 +118,12 @@
     </section>
     </main>
     <footer class="footer-container">
-        <p class="footer-title">All rights reserved copyright@2023 startup landing page design</p>
+        <p class="footer-title">Copyright &copy; " + new Date().getFullYear() + " - All Rights Reserved"</p>
+        <script>
+            document.querySelector('.footer-title').innerHTML = "Copyright &copy; " + new Date().getFullYear() + " - All Rights Reserved";
+        </script>
     </footer>
+    
 </body>
 
 </html>
